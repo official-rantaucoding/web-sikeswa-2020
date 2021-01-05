@@ -1,0 +1,72 @@
+Revisi Program SIKESWA 19-01-2020
+*Semua Dashboard Utama
+ -Chart Pendidikan (Warna Harus Beda, Tambah Belum Sekolah dan Tidak Sekolah) => selesai
+ -Chart Umur( Warna Harus Beda) => selesai
+ -Chart Jenis Kelamin (Warna Harus Beda) => selesai
+
+*User FIELD OFFICER
+ >Pendafataran Peserta
+  -inputan Nomor HP (Bisa Tidak di inputkan) => selesai
+  -Pilihan Jenis Kelamin (Huruf Besar Awalan yang Salah "tidak menentukan", benar -->"Tidak menentukan") => selesai
+  -Pilihan Pendidikan (Tambahkan pilihan "Tidak Sekolah" dan "Belum Sekolah") => selesai / dichart belum *
+  -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa) => selesai
+  -Pilihan kecamatan-->desa dolo (ubah kotapalu menjadi yang benar "Kotapulu") => sudah
+  -Pilihan Agama (Huruf Besar Awalan yang salah "buddha" yang benar-->"Buddha") => selesai
+  -Pilihan Status (yang salah "Nikah" dan "Belum" --> yang Benar diubah  "Menikah" dan "Belum Menikah" ) => selesai
+  -Penginputan data peserta setelah di inputkan Ridairect ---> ke Data Peserta => selesai
+
+ >Data Peserta 
+  *isiTombol Ubah modal
+  -Pilihan Jenis Kelamin (Huruf Besar Awalan yang Salah "tidak menentukan", benar -->"Tidak menentukan") =>selesai
+  -Pilihan Pendidikan (Tambahkan pilihan "Tidak Sekolah" dan "Belum Sekolah") => selesai
+  -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa) => selesai
+  -Pilihan kecamatan-->desa dolo (ubah kotapalu menjadi yang benar "Kotapulu") => selesai
+  -Pilihan Agama (Huruf Besar Awalan yang salah "buddha" yang benar-->"Buddha") => selesai
+  -Pilihan Status (yang salah "Nikah" dan "Belum" --> yang Benar diubah  "Menikah" dan "Belum Menikah" ) => selesai
+
+ >Inputan Aktifitas
+  -Dokumentasi (Tambahkan file Format JEPG) => selesai
+  -Tulisan (Yang Salah "NaraSumber" Yang Benar "Narasumber") => selesai
+  -Cetak Laporan Aktifitas (Tambahkan Tanggal dan Tanda Tangan "Ka erik dan ka novi" tanda tangan nama lengkap bisa di lihat di cetak laporan TOR) *
+
+ >Inputan TOR
+  -Pilihan kecamatan-->desa dolo (ubah "kotapalu" menjadi yang benar "Kotapulu" dan yang benar --> "Kotarindau" yang salah "Kota rindau") => selesai
+
+*USER
+ > Pasien Baru
+ -Pilihan Jenis Kelamin (Huruf Besar Awalan yang Salah "tidak menentukan", benar -->"Tidak menentukan") => selesai
+ -Pilihan Pendidikan (Tambahkan pilihan "Tidak Sekolah" dan "Belum Sekolah") => selesai
+ -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa) => selesai
+ -Pilihan kecamatan-->desa dolo (ubah kotapalu menjadi yang benar "Kotapulu") => selesai
+ -Pilihan Agama (Huruf Besar Awalan yang salah "buddha" yang benar-->"Buddha") => selesai
+ -Pilihan Status (yang salah "Nikah" dan "Belum" --> yang Benar diubah  "Menikah" dan "Belum Menikah" ) => selesai
+
+ > Form Assesment
+ - diatas informasi Assesment (Tambah inputan Tanggal Assesment) => selesai
+ - tambah (keterangan "diagnosa pembanding" ingin dilakukan) => selesai
+
+ > Form Rekam Medis (Konseling)
+ - diatas informasi Rekam Medis (Tambah inputan Tanggal Rekam Medis) => selesai
+ 
+*Admin
+ >Laporan Layanan
+ -Layanan Rujukan Psikolog (Data yang di ambil dari Hasil Rujukan Dari Kader") => selesai
+ -Cetak Laporan Rujukan Psikolog (Format Judul "Laporan Rekapitulasi Rujukan" dan "Data Laporan Rujukan") => selesai
+ -Cetak Laporan Rujukan Psikolog (Hilangkan "Tindakan" di tabel) => selesai
+
+ >Layanan Rujukan Dokter ("Data yang di ambil dari Hasil Rujukan Psikolog ") => selesai
+ -Cetak Laporan Rujukan Psikolog (Hilangkan "Tindakan" di tabel) => selesai
+
+ > Data Laporan Bulanan
+ - Cetak Laporan Chart (Tambah "Chart Pendidikan Sebelah Posisi kiri") => selesai
+
+ > Data Laporan Tahunan
+ - Cetak Laporan Chart (Tambah "Chart Pendidikan Sebelah Posisi kiri") => selesai
+
+ > Daftar Pasien
+ - di Tabel individu di aksi (Tambahkan Tombol Edit Assesment dan Rekam medis)
+ - di Tabel kelompok di aksi (Tambahkan Tombol Edit Assesment dan Rekam medis)
+
+  
+ 
+ 

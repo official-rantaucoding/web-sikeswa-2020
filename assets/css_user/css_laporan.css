@@ -1,0 +1,71 @@
+@page {margin: 0cm 0cm;}
+
+body {
+    margin-top: 3cm;
+    margin-bottom: 5cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    background-color: #FEFEFE;
+    font-size: 14px;
+    font-family: 'Times New Roman';
+}
+
+header {
+    position: fixed;
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 3cm;
+    background-color: #FEFEFE;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0.5cm; 
+    left: 0cm; 
+    right: 0cm;
+    height: 4cm;
+    background-color: #FEFEFE;
+}
+
+main {
+    margin-top: 1cm;
+    margin-bottom: 5cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+p {
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+span {font-weight: bold;}
+.indent {text-indent: 50px;}
+
+
+
+.field-header{margin-bottom: 14px;}
+.field-ttd{margin-bottom: 3cm;}
+.field-nama{font-weight: bold;}
+
+.block-float{
+    margin-top: 1cm;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tabel {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+.tabel, th, td {border: 1px solid black;}
+th, td {padding: 8px 8px;}
+
+.chart-laporan {
+    height:207px; 
+    min-height:207px;
+}

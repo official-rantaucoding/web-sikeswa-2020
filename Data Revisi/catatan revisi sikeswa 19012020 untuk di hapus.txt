@@ -1,0 +1,44 @@
+Revisi Program SIKESWA 19-01-2020
+*User FIELD OFFICER
+ >Pendafataran Peserta
+  -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa) => selesai
+  -Penginputan data peserta setelah di inputkan Ridairect ---> ke Data Peserta => 
+
+ >Inputan Aktifitas
+  -Dokumentasi (Tambahkan file Format JEPG) => selesai
+
+ >Inputan TOR
+  -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa) => tidak ada
+  
+*USER
+ > Pasien Baru
+ 
+ -Pilihan Kecamatan (Tambahkan Pilihan "Lainnya" secara otomatis tampil inputan kosong untuk menginput desa)
+ > Form Assesment
+ - diatas informasi Assesment (Tambah inputan Tanggal Assesment)
+ - tambah (keterangan "diagnosa pembanding" ingin dilakukan)
+
+ > Form Rekam Medis (Konseling)
+ - diatas informasi Rekam Medis (Tambah inputan Tanggal Rekam Medis)
+ 
+*Admin
+ >Laporan Layanan
+ -Layanan Rujukan Psikolog (Data yang di ambil dari Hasil Rujukan Dari Kader")
+ -Cetak Laporan Rujukan Psikolog (Hilangkan "Tindakan" di tabel)
+
+ >Layanan Rujukan Dokter ("Data yang di ambil dari Hasil Rujukan Psikolog ")
+ -Cetak Laporan Rujukan Psikolog (Hilangkan "Tindakan" di tabel)
+
+ > Data Laporan Bulanan
+ - Cetak Laporan Chart (Tambah "Chart Pendidikan Sebelah Posisi kiri")
+
+ > Data Laporan Tahunan
+ - Cetak Laporan Chart (Tambah "Chart Pendidikan Sebelah Posisi kiri")
+
+ > Daftar Pasien
+ - di Tabel individu di aksi (Tambahkan Tombol Edit Assesment dan Rekam medis)
+ - di Tabel kelompok di aksi (Tambahkan Tombol Edit Assesment dan Rekam medis)
+
+  
+ 
+ 

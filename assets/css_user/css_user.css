@@ -1,0 +1,346 @@
+.tema {
+	width: 40px;
+	height: 20px;
+	border-radius: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.ukuran-logo {
+	width: 80px;
+	height: 88px;
+}
+
+.text-judul-aplikasi {
+	font-family: 'Helvetica';
+	font-size: 24px;
+	color: #000;
+	line-height: 1.1;
+	margin-top: 6px;
+
+}
+
+
+.log-support-hening {
+	width: 127px;
+	height: 49px;
+}
+
+.log-support-carits {
+	width: 82px;
+	height: 66px;
+}
+
+.login-logo {
+	width: 100%;
+	margin-top: 30px;
+}
+
+/* loading bar */
+
+#page-loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 999999;
+	background: rgba(255, 255, 255, 0.5);
+	display: none;
+}
+
+.three-balls {
+	margin: 0 auto;
+	width: 70px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+}
+
+.three-balls .ball {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: bouncedelay 2.0s infinite cubic-bezier(.62, .28, .23, .99) both;
+	animation: bouncedelay 2.0s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+
+.three-balls .ball1 {
+	-webkit-animation-delay: -.16s;
+	animation-delay: -.16s;
+}
+
+.three-balls .ball2 {
+	-webkit-animation-delay: -.08s;
+	animation-delay: -.08s;
+}
+
+@keyframes bouncedelay {
+	0% {
+		bottom: 0;
+		background-color: #03A9F4;
+	}
+
+	16.66% {
+		bottom: 40px;
+		background-color: #FB6542;
+	}
+
+	33.33% {
+		bottom: 0px;
+		background-color: #FB6542;
+	}
+
+	50% {
+		bottom: 40px;
+		background-color: #FFBB00;
+	}
+
+	66.66% {
+		bottom: 0px;
+		background-color: #FFBB00;
+	}
+
+	83.33% {
+		bottom: 40px;
+		background-color: #03A9F4;
+	}
+
+	100% {
+		bottom: 0;
+		background-color: #03A9F4;
+	}
+}
+
+@-webkit-keyframes bouncedelay {
+	0% {
+		bottom: 0;
+		background-color: #03A9F4;
+	}
+
+	16.66% {
+		bottom: 40px;
+		background-color: #FB6542;
+	}
+
+	33.33% {
+		bottom: 0px;
+		background-color: #FB6542;
+	}
+
+	50% {
+		bottom: 40px;
+		background-color: #FFBB00;
+	}
+
+	66.66% {
+		bottom: 0px;
+		background-color: #FFBB00;
+	}
+
+	83.33% {
+		bottom: 40px;
+		background-color: #03A9F4;
+	}
+
+	100% {
+		bottom: 0;
+		background-color: #03A9F4;
+	}
+}
+
+
+.notelp {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: auto 26px;
+    background-position: 98% 50%;
+}
+
+
+.id_map_sigi_kota_palu {
+	width: 28% margin:auto;
+
+	padding-top: 15px;
+	margin-left: -25px;
+}
+
+.id_map_sigi_kota_palu path {
+	fill: #008B8B;
+	transition: fill 0.3s;
+}
+
+.id_map_sigi_kota_palu :hover {
+	fill: #5F9EA0;
+}
+
+/* mengubah warna area peta dolo dan biromaru */
+#kec_biromaru path {
+	/*fill: #008B8B;*/
+	/*stroke: #dece0c;*/
+	stroke-width: 5px;
+}
+
+#kec_biromaru path:hover {
+	fill: #dece0c;
+}
+
+#kec_dolo path {
+	/*fill: #008B8B;
+	stroke: #dece0c;*/
+	stroke-width: 5px;
+}
+
+#kec_dolo :hover {
+	fill: #dece0c;
+}
+
+#wilayah_dolo_biromaru path {
+	fill: #e6e7e8 !important;
+}
+
+#wilayah_dolo_biromaru :hover {
+	fill: #dece0c;
+}
+
+/* end */
+
+/* merubah warna peta desa */
+#des_potoya path {
+	fill: #DC143C;
+	stroke: #DC143C;
+	stroke-width: 5px;
+
+}
+
+#des_potoya :hover {
+	fill: #dece0c;
+	transition: fill 0.3s;
+}
+
+#wilayah_desa_potoya path {
+	fill: #008B8B;
+}
+
+#wilayah_desa_potoya :hover {
+	fill: #dece0c;
+}
+
+#des_karawana path {
+	fill: #87CEEB;
+	stroke: #87CEEB;
+	stroke-width: 5px;
+}
+
+#des_karawana :hover {
+	fill: #dece0c;
+}
+
+#des_sidera path {
+	fill: #3CB371;
+	stroke: #3CB371;
+	stroke-width: 5px;
+}
+
+#des_sidera :hover {
+	fill: #dece0c;
+}
+
+/* soluowe */
+#des_soluowe path {
+	fill: #4682B4;
+	stroke: #4682B4;
+	stroke-width: 5px;
+}
+
+#des_soluowe :hover {
+	fill: #dece0c;
+}
+
+#wilayah_desa_sidera path {
+	fill: #3CB371;
+}
+
+#wilayah_desa_ :hover {
+	fill: #dece0c;
+}
+
+#wilayah_desa_karawana path {
+	fill: #87CEEB;
+}
+
+#wilayah_desa_karawana :hover {
+	fill: #dece0c;
+}
+
+#wilayah_desa_potoya path {
+	fill: #DC143C;
+}
+
+#wilayah_desa_potoya :hover {
+	fill: #dece0c;
+}
+
+#wilayah_desa_soluowe path {
+	fill: #4682B4;
+}
+
+#wilayah_desa_soluowe :hover {
+	fill: #dece0c;
+}
+
+/* end */
+
+/*bantuan*/
+
+.isi-dropdown li a:hover{
+	text-decoration: underline !important;
+}
+
+.html_penjelasan {
+	padding: 15px 15px;
+	border-left: 1px solid #DFDFDF;  
+	border-top: 1px solid #DFDFDF;
+	height: 800px;
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+.html_menu{
+	border-top: 1px solid #DFDFDF; 
+	border-left: 1px solid #DFDFDF; 
+	padding: 15px 15px;
+}
+
+.tab-indent {
+	text-indent: 40px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+.html_penjelasan::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.html_penjelasan::-webkit-scrollbar-track {      
+    background: #F8F9FA; 
+    /*background-color:rgba(0,0,0,.1);*/
+    border-radius:2px;  
+}
+ 
+.html_penjelasan::-webkit-scrollbar-thumb {
+    border-radius:2px;background-color:rgba(0,0,0,.4);
+    transition:all 400ms ease-in-out;
+}
+
+.html_penjelasan::-webkit-scrollbar-thumb:hover {
+    background: #A8A8A8;
+}
